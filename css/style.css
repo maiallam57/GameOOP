@@ -1,0 +1,13 @@
+
+:root {
+    --main-color: #272b30;
+    --seconde-color: #32383e;
+    --color-text: #fff;
+    --btn-main-color: #272729;
+}
+
+
+body{
+    background-color: var(--main-color);
+    color: var(--color-text);
+}
