@@ -1,13 +1,101 @@
-
 :root {
     --main-color: #272b30;
     --seconde-color: #32383e;
     --color-text: #fff;
     --btn-main-color: #272729;
+    --bg-nav: rgb(58, 73, 123) !important;
+    --box-shadow: 0 0 10px rgb(0 0 0 / 0.7);
+    --text-bg-primary: rgba(13, 110, 253, 1) !important;
 }
 
 
-body{
+body {
     background-color: var(--main-color);
     color: var(--color-text);
+    font-family: "Comfortaa", cursive;
+}
+
+/* ! ================= Loader ======================= */
+.loading {
+    inset: 0;
+    background-color: #272b30e3;
+}
+
+.loader {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    border-top: 4px solid #fff;
+    border-right: 4px solid transparent;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    position: relative;
+}
+
+.loader::after {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-left: 4px solid #ff3d00;
+    border-bottom: 4px solid transparent;
+    animation: rotation 0.5s linear infinite reverse;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* ! ================= header ======================= */
+
+header img {
+    max-height: 30vh;
+    object-fit: cover;
+}
+
+/* ! ================= nav ======================= */
+nav {
+    background-color: var(--bg-nav);
+    margin-top: -30px;
+    border-radius: 20px;
+    box-shadow: var(--box-shadow);
+}
+
+/* ! ================= cards ======================= */
+.card {
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.5s ease-out;
+    filter: grayscale(60%);
+}
+
+.card:hover {
+    filter: grayscale(0%);
+    transform: scale(1.08);
+}
+
+.badge-color {
+    background-color: var(--seconde-color);
+}
+
+.badge-bg-primary {
+    cursor: pointer;
+    color: #fff !important;
+    background-color: var(--bg-nav);
+}
+
+.badge-bg-primary:hover {
+    background-color: var(--text-bg-primary);
 }

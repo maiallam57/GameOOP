@@ -1,31 +1,378 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="Nerko_One/NerkoOne-Regular.ttf">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="images/logo-sm.png">
     <title> Home | Mai Allam</title>
 </head>
-<body>
 
-    <section class="">
-        <img src="images/wraper.png" alt="">
+<body>
+    <section id="loader">
+        <div class="loading d-none d-flex justify-content-center align-items-center position-fixed z-3">
+            <span class="loader"></span>
+        </div>
+    </section>
+
+
+    <section>
+        <header>
+            <img src="images/wraper.png" class="w-100" alt="game photo">
+        </header>
+
+        <nav class="navbar navbar-expand-lg nav-bg position-sticky top-0 z-2 col-md-6 col-lg-9 mx-auto">
+            <div class="container">
+                <h5 class="navbar-brand mb-0 text-uppercase text-white">
+                    <img src="images/logo-sm.png" alt="logo photo" style="max-width: 40px"> Game Reviews
+                </h5>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse small navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 menu small">
+                        <li class="nav-item">
+                            <a role="button" class="nav-link active text-uppercase text-white" aria-current="page"
+                                data-category="mmorpg">mmorpg</a>
+                        </li>
+                        <li class="nav-item">
+                            <a role="button" class="nav-link text-uppercase text-white"
+                                data-category="shooter">shooter</a>
+                        </li>
+                        <li class="nav-item">
+                            <a role="button" class="nav-link text-uppercase text-white"
+                                data-category="sailing">sailing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a role="button" class="nav-link text-uppercase text-white"
+                                data-category="permadeath">permadeath</a>
+                        </li>
+                        <li class="nav-item">
+                            <a role="button" class="nav-link text-uppercase text-white"
+                                data-category="superhero">superhero</a>
+                        </li>
+                        <li class="nav-item">
+                            <a role="button" class="nav-link text-uppercase text-white" data-category="pixel">pixel</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <section class="container my-5">
+
+            <div class="row g-4" id="gameData">
+
+                <div class="col-md-3">
+                    <div class="card bg-transparent text-white p-3 pb-0">
+                        <img src="images/thumbnail108.jpg" class="card-img-top" alt="...">
+                        <div class="card-body p-2">
+                            <div class="d-flex justify-content-between mb-2 px-0">
+                                <h5 class="card-title">Card title</h5>
+                                <span class="badge badge-bg-primary p-2">Free</span>
+                            </div>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between align-content-center">
+                            <span class="badge badge-color">ARPG</span>
+                            <span class="badge badge-color">PC (Windows)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card bg-transparent text-white p-3 pb-0">
+                        <img src="images/thumbnail108.jpg" class="card-img-top" alt="...">
+                        <div class="card-body p-2">
+                            <div class="d-flex justify-content-between mb-2 px-0">
+                                <h5 class="card-title">Card title</h5>
+                                <span class="badge badge-bg-primary p-2">Free</span>
+                            </div>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between align-content-center">
+                            <span class="badge badge-color">ARPG</span>
+                            <span class="badge badge-color">PC (Windows)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card bg-transparent text-white p-3 pb-0">
+                        <img src="images/thumbnail108.jpg" class="card-img-top" alt="...">
+                        <div class="card-body p-2">
+                            <div class="d-flex justify-content-between mb-2 px-0">
+                                <h5 class="card-title">Card title</h5>
+                                <span class="badge badge-bg-primary p-2">Free</span>
+                            </div>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between align-content-center">
+                            <span class="badge badge-color">ARPG</span>
+                            <span class="badge badge-color">PC (Windows)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card bg-transparent text-white p-3 pb-0">
+                        <img src="images/thumbnail108.jpg" class="card-img-top" alt="...">
+                        <div class="card-body p-2">
+                            <div class="d-flex justify-content-between mb-2 px-0">
+                                <h5 class="card-title">Card title</h5>
+                                <span class="badge badge-bg-primary p-2">Free</span>
+                            </div>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between align-content-center">
+                            <span class="badge badge-color">ARPG</span>
+                            <span class="badge badge-color">PC (Windows)</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-3">
+                    <div class="card bg-transparent text-white p-3 pb-0">
+                        <img src="images/thumbnail108.jpg" class="card-img-top" alt="...">
+                        <div class="card-body p-2">
+                            <div class="d-flex justify-content-between mb-2 px-0">
+                                <h5 class="card-title">Card title</h5>
+                                <span class="badge badge-bg-primary p-2">Free</span>
+                            </div>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between align-content-center">
+                            <span class="badge badge-color">ARPG</span>
+                            <span class="badge badge-color">PC (Windows)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card bg-transparent text-white p-3 pb-0">
+                        <img src="images/thumbnail108.jpg" class="card-img-top" alt="...">
+                        <div class="card-body p-2">
+                            <div class="d-flex justify-content-between mb-2 px-0">
+                                <h5 class="card-title">Card title</h5>
+                                <span class="badge badge-bg-primary p-2">Free</span>
+                            </div>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between align-content-center">
+                            <span class="badge badge-color">ARPG</span>
+                            <span class="badge badge-color">PC (Windows)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card bg-transparent text-white p-3 pb-0">
+                        <img src="images/thumbnail108.jpg" class="card-img-top" alt="...">
+                        <div class="card-body p-2">
+                            <div class="d-flex justify-content-between mb-2 px-0">
+                                <h5 class="card-title">Card title</h5>
+                                <span class="badge badge-bg-primary p-2">Free</span>
+                            </div>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between align-content-center">
+                            <span class="badge badge-color">ARPG</span>
+                            <span class="badge badge-color">PC (Windows)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card bg-transparent text-white p-3 pb-0">
+                        <img src="images/thumbnail108.jpg" class="card-img-top" alt="...">
+                        <div class="card-body p-2">
+                            <div class="d-flex justify-content-between mb-2 px-0">
+                                <h5 class="card-title">Card title</h5>
+                                <span class="badge badge-bg-primary p-2">Free</span>
+                            </div>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between align-content-center">
+                            <span class="badge badge-color">ARPG</span>
+                            <span class="badge badge-color">PC (Windows)</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-3">
+                    <div class="card bg-transparent text-white p-3 pb-0">
+                        <img src="images/thumbnail108.jpg" class="card-img-top" alt="...">
+                        <div class="card-body p-2">
+                            <div class="d-flex justify-content-between mb-2 px-0">
+                                <h5 class="card-title">Card title</h5>
+                                <span class="badge badge-bg-primary p-2">Free</span>
+                            </div>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between align-content-center">
+                            <span class="badge badge-color">ARPG</span>
+                            <span class="badge badge-color">PC (Windows)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card bg-transparent text-white p-3 pb-0">
+                        <img src="images/thumbnail108.jpg" class="card-img-top" alt="...">
+                        <div class="card-body p-2">
+                            <div class="d-flex justify-content-between mb-2 px-0">
+                                <h5 class="card-title">Card title</h5>
+                                <span class="badge badge-bg-primary p-2">Free</span>
+                            </div>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between align-content-center">
+                            <span class="badge badge-color">ARPG</span>
+                            <span class="badge badge-color">PC (Windows)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card bg-transparent text-white p-3 pb-0">
+                        <img src="images/thumbnail108.jpg" class="card-img-top" alt="...">
+                        <div class="card-body p-2">
+                            <div class="d-flex justify-content-between mb-2 px-0">
+                                <h5 class="card-title">Card title</h5>
+                                <span class="badge badge-bg-primary p-2">Free</span>
+                            </div>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between align-content-center">
+                            <span class="badge badge-color">ARPG</span>
+                            <span class="badge badge-color">PC (Windows)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card bg-transparent text-white p-3 pb-0">
+                        <img src="images/thumbnail108.jpg" class="card-img-top" alt="...">
+                        <div class="card-body p-2">
+                            <div class="d-flex justify-content-between mb-2 px-0">
+                                <h5 class="card-title">Card title</h5>
+                                <span class="badge badge-bg-primary p-2">Free</span>
+                            </div>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between align-content-center">
+                            <span class="badge badge-color">ARPG</span>
+                            <span class="badge badge-color">PC (Windows)</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-3">
+                    <div class="card bg-transparent text-white p-3 pb-0">
+                        <img src="images/thumbnail108.jpg" class="card-img-top" alt="...">
+                        <div class="card-body p-2">
+                            <div class="d-flex justify-content-between mb-2 px-0">
+                                <h5 class="card-title">Card title</h5>
+                                <span class="badge badge-bg-primary p-2">Free</span>
+                            </div>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between align-content-center">
+                            <span class="badge badge-color">ARPG</span>
+                            <span class="badge badge-color">PC (Windows)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card bg-transparent text-white p-3 pb-0">
+                        <img src="images/thumbnail108.jpg" class="card-img-top" alt="...">
+                        <div class="card-body p-2">
+                            <div class="d-flex justify-content-between mb-2 px-0">
+                                <h5 class="card-title">Card title</h5>
+                                <span class="badge badge-bg-primary p-2">Free</span>
+                            </div>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between align-content-center">
+                            <span class="badge badge-color">ARPG</span>
+                            <span class="badge badge-color">PC (Windows)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card bg-transparent text-white p-3 pb-0">
+                        <img src="images/thumbnail108.jpg" class="card-img-top" alt="...">
+                        <div class="card-body p-2">
+                            <div class="d-flex justify-content-between mb-2 px-0">
+                                <h5 class="card-title">Card title</h5>
+                                <span class="badge badge-bg-primary p-2">Free</span>
+                            </div>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between align-content-center">
+                            <span class="badge badge-color">ARPG</span>
+                            <span class="badge badge-color">PC (Windows)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card bg-transparent text-white p-3 pb-0">
+                        <img src="images/thumbnail108.jpg" class="card-img-top" alt="...">
+                        <div class="card-body p-2">
+                            <div class="d-flex justify-content-between mb-2 px-0">
+                                <h5 class="card-title">Card title</h5>
+                                <span class="badge badge-bg-primary p-2">Free</span>
+                            </div>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between align-content-center">
+                            <span class="badge badge-color">ARPG</span>
+                            <span class="badge badge-color">PC (Windows)</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
 
     </section>
-    
-
-
-
-
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery-3.7.1.js"></script>
     <script src="js/ui-module.js"></script>
     <script src="js/games-module.js"></script>
     <script src="js/details-module.js"></script>
-    
+
 </body>
+
 </html>
