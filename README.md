@@ -114,5 +114,5 @@ Project Link: [https://github.com/maiallam57/GameOOP](https://github.com/maialla
 [CSS3-url]: https://developer.mozilla.org/en-US/docs/Web/CSS
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com/
-[product-screenshot]: images/screenshot.png
+[Website-screenshot]:https://raw.githubusercontent.com/maiallam57/GameOOP/main/images/cover.png
 ```
