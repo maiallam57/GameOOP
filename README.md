@@ -2,7 +2,7 @@
 # GameOOP
 
 <!-- PROJECT DESCRIPTION -->
-A JavaScript-based game demonstrating Object-Oriented Programming (OOP) principles with interactive gameplay.
+A JavaScript-based website demonstrating Object-Oriented Programming (OOP) principles with interactive UI.
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -30,7 +30,7 @@ A JavaScript-based game demonstrating Object-Oriented Programming (OOP) principl
 
 [![GameOOP Screenshot][Website-screenshot]](https://raw.githubusercontent.com/maiallam57/GameOOP/main/images/cover.png)
 
-GameOOP is a JavaScript-based game designed to demonstrate Object-Oriented Programming (OOP) concepts. The project showcases how to structure code with classes and objects to build interactive and maintainable game logic.
+GameOOP is a JavaScript-based Website designed to demonstrate Object-Oriented Programming (OOP) concepts. The project showcases how to structure code with classes and objects to build interactive and maintainable logic.
 
 ### Built With
 
@@ -59,7 +59,7 @@ Follow these instructions to set up and run the project locally.
    ```sh
    npm install
    ```
-4. Open `index.html` in your web browser to start the game.
+4. Open `index.html` in your web browser.
 
 
 
