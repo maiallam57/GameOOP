@@ -39,7 +39,6 @@ GameOOP is a JavaScript-based game designed to demonstrate Object-Oriented Progr
 * [![CSS3][CSS3.com]][CSS3-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -62,7 +61,6 @@ Follow these instructions to set up and run the project locally.
    ```
 4. Open `index.html` in your web browser to start the game.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- CONTRIBUTING -->
@@ -76,7 +74,6 @@ Contributions are welcome! If you have suggestions for improvements or new featu
 4. Push to the branch 
 5. Create a Pull Request
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
 ## Contact
@@ -84,8 +81,6 @@ Contributions are welcome! If you have suggestions for improvements or new featu
 Mai Allam - [@maiallam57](https://twitter.com/maiallam57) - maimallam57@gmail.com
 
 Project Demo: [https://maiallam57.github.io/GameOOP/](https://maiallam57.github.io/GameOOP/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
