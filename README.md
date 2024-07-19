@@ -83,7 +83,7 @@ Contributions are welcome! If you have suggestions for improvements or new featu
 
 Mai Allam - [@maiallam57](https://twitter.com/maiallam57) - maimallam57@gmail.com
 
-Project Link: [https://github.com/maiallam57/GameOOP](https://github.com/maiallam57/GameOOP)
+Project Demo: [https://maiallam57.github.io/GameOOP/](https://maiallam57.github.io/GameOOP/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
