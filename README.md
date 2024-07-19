@@ -30,7 +30,7 @@ A JavaScript-based game demonstrating Object-Oriented Programming (OOP) principl
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![GameOOP Screenshot][product-screenshot]](https://example.com)
+[![GameOOP Screenshot][Website-screenshot]](https://raw.githubusercontent.com/maiallam57/GameOOP/main/images/cover.png)
 
 GameOOP is a JavaScript-based game designed to demonstrate Object-Oriented Programming (OOP) concepts. The project showcases how to structure code with classes and objects to build interactive and maintainable game logic.
 
