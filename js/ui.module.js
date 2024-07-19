@@ -26,14 +26,14 @@ export class UI {
         })
     }
 
-    //! =============== Display Functions =================
+    //! =============== Display Games =================
     dispalyGames(gameList) {
         this.loaderIn();
         let dispalyedGames = '';
         for (let index = 0; index < gameList.length; index++) {
             dispalyedGames += `
-            <div class="col-md-3">
-            <div class="card h-100 bg-transparent text-white p-3 pb-0">
+            <div class="col col-sm-6 col-md-4 col-lg-3">
+            <div class="card w-100 h-100 bg-transparent text-white p-3 pb-0">
                 <img src=${gameList[index].thumbnail} class="card-img-top" alt="${gameList[index].title}">
                 <div class="card-body p-2">
                     <div class="d-flex justify-content-between mb-2 px-0">
@@ -42,7 +42,7 @@ export class UI {
                     </div>
                     <p class="card-text text-center text-secondary">${gameList[index].short_description.split(" ", 8)}</p>
                 </div>
-                <div class="card-footer d-flex justify-content-between align-content-center">
+                <div class="card-footer d-flex justify-content-between align-content-center px-1">
                     <span class="badge badge-color">${gameList[index].genre}</span>
                     <span class="badge badge-color">${gameList[index].platform}</span>
                 </div>
@@ -54,18 +54,16 @@ export class UI {
     }
 
 
-    // dispalyDetails(game) {
-    // this.loaderIn();
+    //! =============== Display Details =================
+    dispalyDetails(game) {
+        this.loaderIn();
+        $('header').addClass('d-none');
+        $('.navbar').addClass('d-none');
+        let dispalyedDetails = '';
 
-    //     $('header').addClass('d-none');
-    //     $('.navbar').addClass('d-none');
 
-    //     let dispalyedDetails = `
-
-    //     `
-
-    //     $('gameData').html(dispalyedDetails);
-    // }
+        $('gameData').html(dispalyedDetails);
+    }
 
 }
 
