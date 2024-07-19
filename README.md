@@ -17,11 +17,9 @@ A JavaScript-based game demonstrating Object-Oriented Programming (OOP) principl
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
@@ -48,13 +46,6 @@ GameOOP is a JavaScript-based game designed to demonstrate Object-Oriented Progr
 
 Follow these instructions to set up and run the project locally.
 
-### Prerequisites
-
-* Node.js
-  ```sh
-  npm install npm@latest -g
-  ```
-
 ### Installation
 
 1. Clone the repository
@@ -73,14 +64,6 @@ Follow these instructions to set up and run the project locally.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- USAGE EXAMPLES -->
-## Usage
-
-To play the game, open `index.html` in a web browser. You can interact with the game elements and see the OOP principles in action. For further customization or development, you can modify the JavaScript files to add new features or enhance existing ones.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -88,9 +71,9 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 Contributions are welcome! If you have suggestions for improvements or new features, please follow these steps to contribute:
 
 1. Fork the repository
-2. Create a new branch (`git checkout -b feature/YourFeature`)
-3. Commit your changes (`git commit -m 'Add new feature'`)
-4. Push to the branch (`git push origin feature/YourFeature`)
+2. Create a new branch
+3. Commit your changes
+4. Push to the branch 
 5. Create a Pull Request
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -103,6 +86,7 @@ Mai Allam - [@maiallam57](https://twitter.com/maiallam57) - maimallam57@gmail.co
 Project Link: [https://github.com/maiallam57/GameOOP](https://github.com/maiallam57/GameOOP)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
