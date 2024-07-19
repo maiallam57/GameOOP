@@ -66,10 +66,10 @@ export class UI {
                         <h2>Details Game</h2>
                         <i class="fa fa-close fa-2x" id="closeBtn"></i>
                     </div>
-                    <div class="py-2 col-md-4">
+                    <div class="py-3 col-md-4">
                         <img src=${game.thumbnail} alt="${game.title}" class="w-100">
                     </div>
-                    <div class="py-2 col-md-8">
+                    <div class="py-3 col-md-8">
                         <h3 class="mb-4">Title: ${game.title}</h3>
                         <p>Category: <span class="badge text-bg-info">${game.genre}</span></p>
                         <p>Platform: <span class="badge text-bg-info">${game.platform}</span></p>

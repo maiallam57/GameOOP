@@ -35,6 +35,8 @@ export class GameDetails {
             $('#gameDetails').fadeOut(100, function () {
                 $('#gameDetails').addClass('d-none');
                 $('#gameData').removeClass('d-none');
+                $('header').removeClass('d-none');
+                $('.navbar').removeClass('d-none');
             });
         });
     };

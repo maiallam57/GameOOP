@@ -93,7 +93,7 @@ nav .active {
     cursor: pointer;
     font-size: 1rem;
     transition: 0.5s ease-out;
-    filter: grayscale(60%);
+    filter: grayscale(70%);
 }
 
 .card:hover {
