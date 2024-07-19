@@ -1,6 +1,3 @@
-Here’s a README tailored for your [GameOOP](https://github.com/maiallam57/GameOOP) project:
-
-```markdown
 <!-- PROJECT TITLE -->
 # GameOOP
 
@@ -119,5 +116,3 @@ Project Link: [https://github.com/maiallam57/GameOOP](https://github.com/maialla
 [Bootstrap-url]: https://getbootstrap.com/
 [product-screenshot]: images/screenshot.png
 ```
-
-This README includes sections for an overview of the project, how to get started, usage instructions, contributing guidelines, and contact information. The built-with section highlights the technologies used in your project. If you have any specific details or changes you'd like, feel free to let me know!
