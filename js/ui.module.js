@@ -59,10 +59,24 @@ export class UI {
         this.loaderIn();
         $('header').addClass('d-none');
         $('.navbar').addClass('d-none');
-        let dispalyedDetails = '';
+        $('gameData').html(`
+            <div class="d-flex justify-content-between align-items-baseline">
+                    <h2>Details Game</h2>
+                    <i class="fa fa-close fa-2x"></i>
+                </div>
+                <div id="details" class="py-5 col-md-4">
+                    <img src="images/thumbnail108.jpg" alt="" class="w-100">
+                </div>
+                <div class="py-5 col-md-8">
+                    <h3>Title: </h3>
+                    <p>Category: <span class="badge text-bg-info"></span></p>
+                    <p>Platform: <span class="badge text-bg-info"></span></p>
+                    <p>Status: <span class="badge text-bg-info"></span></p>
+                    <p class="small"></p>
 
+                    <a class="btn btn-outline-warning text-white" href="">Show Game</a>
 
-        $('gameData').html(dispalyedDetails);
+                </div>`);
     }
 
 }
