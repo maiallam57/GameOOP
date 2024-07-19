@@ -6,15 +6,7 @@ export class Games {
     constructor() {
         this.ui = new UI()
         this.getGame("mmorpg");
-
-        //! =============== NAV Functions =================
-        $("nav a").on("click", function (e) {
-            e.preventDefault();
-            $("nav .active").removeClass("active");
-            $(this).addClass("active");
-            new Games().getGame($(this).data("category"));
-        });
-
+        this.navEvent();
     }
 
     //! ================= games Functions =================
@@ -37,6 +29,16 @@ export class Games {
             console.log(error)
         }
     }
+
+    navEvent() {
+        //! =============== NAV Functions =================
+        $("nav a").on("click", function (e) {
+            e.preventDefault();
+            $("nav .active").removeClass("active");
+            $(this).addClass("active");
+            new Games().getGame($(this).data("category"));
+        });
+    };
 
 
     startEvent() {

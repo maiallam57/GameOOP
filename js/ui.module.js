@@ -56,8 +56,6 @@ export class UI {
 
 
     //! =============== Display Details =================
-
-
     dispalyDetails(game) {
         this.loaderIn();
         $('header').addClass('d-none');
