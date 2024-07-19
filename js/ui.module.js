@@ -62,8 +62,6 @@ export class UI {
         this.loaderIn();
         $('header').addClass('d-none');
         $('.navbar').addClass('d-none');
-        $('#gameData').addClass('d-none');
-        $('#gameDetails').removeClass('d-none');
         $('#gameDetails').html(`
             <div class="row py-5">
                 <div class="d-flex justify-content-between align-items-baseline">
