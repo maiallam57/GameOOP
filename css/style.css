@@ -6,6 +6,7 @@
     --bg-nav: rgb(58, 73, 123) !important;
     --box-shadow: 0 0 10px rgb(0 0 0 / 0.7);
     --text-bg-primary: rgba(13, 110, 253, 1) !important;
+    --nav-active-text: #09c !important;
 }
 
 
@@ -24,13 +25,11 @@ body {
 .loader {
     width: 100px;
     height: 100px;
-    border-radius: 50%;
-    display: inline-block;
     border-top: 4px solid #fff;
     border-right: 4px solid transparent;
     box-sizing: border-box;
     animation: rotation 1s linear infinite;
-    position: relative;
+
 }
 
 .loader::after {
@@ -71,6 +70,10 @@ nav {
     margin-top: -30px;
     border-radius: 20px;
     box-shadow: var(--box-shadow);
+}
+
+nav .active {
+    color: var(--nav-active-text) !important;
 }
 
 /* ! ================= cards ======================= */
