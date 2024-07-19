@@ -1,4 +1,5 @@
 import { UI } from "./ui.module.js";
+import { GameDetails } from "./details.module.js";
 
 
 export class Games {
@@ -11,7 +12,6 @@ export class Games {
             e.preventDefault();
             $("nav .active").removeClass("active");
             $(this).addClass("active");
-            console.log($(this).data("category"));
             new Games().getGame($(this).data("category"));
         });
 
@@ -30,11 +30,31 @@ export class Games {
         try {
             let api = await fetch(`https://free-to-play-games-database.p.rapidapi.com/api/games?category=${category}`, options);
             let games = await api.json();
-            console.log(games);
             this.ui.dispalyGames(games);
+            this.startEvent();
 
         } catch (error) {
             console.log(error)
         }
     }
+
+
+    startEvent() {
+        $(".card").each((index, item) => {
+            $(item).on("click", () => {
+                this.showDetails($(item).data("id"));
+            });
+        });
+    }
+
+    showDetails(idGame) {
+        new GameDetails(idGame);
+        $('#gameDetails').fadeIn(100, function () {
+            $('#gameData').addClass('d-none');
+            $('#gameDetails').removeClass('d-none');
+        });
+    }
+
+
+
 }

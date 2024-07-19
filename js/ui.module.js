@@ -29,11 +29,12 @@ export class UI {
     //! =============== Display Games =================
     dispalyGames(gameList) {
         this.loaderIn();
+        $('#gameData').removeClass('d-none');
         let dispalyedGames = '';
         for (let index = 0; index < gameList.length; index++) {
             dispalyedGames += `
             <div class="col col-sm-6 col-md-4 col-lg-3">
-            <div class="card w-100 h-100 bg-transparent text-white p-3 pb-0">
+            <div class="card w-100 h-100 bg-transparent text-white p-3 pb-0"  data-id="${gameList[index].id}">
                 <img src=${gameList[index].thumbnail} class="card-img-top" alt="${gameList[index].title}">
                 <div class="card-body p-2">
                     <div class="d-flex justify-content-between mb-2 px-0">
@@ -55,28 +56,35 @@ export class UI {
 
 
     //! =============== Display Details =================
+
+
     dispalyDetails(game) {
         this.loaderIn();
         $('header').addClass('d-none');
         $('.navbar').addClass('d-none');
-        $('gameData').html(`
-            <div class="d-flex justify-content-between align-items-baseline">
-                    <h2>Details Game</h2>
-                    <i class="fa fa-close fa-2x"></i>
-                </div>
-                <div id="details" class="py-5 col-md-4">
-                    <img src="images/thumbnail108.jpg" alt="" class="w-100">
-                </div>
-                <div class="py-5 col-md-8">
-                    <h3>Title: </h3>
-                    <p>Category: <span class="badge text-bg-info"></span></p>
-                    <p>Platform: <span class="badge text-bg-info"></span></p>
-                    <p>Status: <span class="badge text-bg-info"></span></p>
-                    <p class="small"></p>
+        $('#gameData').addClass('d-none');
+        $('#gameDetails').removeClass('d-none');
+        $('#gameDetails').html(`
+            <div class="row py-5">
+                <div class="d-flex justify-content-between align-items-baseline">
+                        <h2>Details Game</h2>
+                        <i class="fa fa-close fa-2x" id="closeBtn"></i>
+                    </div>
+                    <div class="py-2 col-md-4">
+                        <img src=${game.thumbnail} alt="${game.title}" class="w-100">
+                    </div>
+                    <div class="py-2 col-md-8">
+                        <h3 class="mb-4">Title: ${game.title}</h3>
+                        <p>Category: <span class="badge text-bg-info">${game.genre}</span></p>
+                        <p>Platform: <span class="badge text-bg-info">${game.platform}</span></p>
+                        <p>Developer: <span class="badge text-bg-info">${game.developer}</span></p>
+                        <p>Status: <span class="badge text-bg-danger">${game.status}</span></p>
+                        <p class="small">${game.description}</p>
 
-                    <a class="btn btn-outline-warning text-white" href="">Show Game</a>
+                        <a class="btn btn-outline-warning text-white" target="_blank" href=${game.game_url}>Show Game</a>
 
-                </div>`);
+                </div>
+            </div>`);
     }
 
 }
